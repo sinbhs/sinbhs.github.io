@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Jiwoo Song
 tagline:             Records for one step
 url:                 http://sinbhs.github.io
-baseurl:             ''
+baseurl:''
 analytics_id:
 
 # Owner/author information
