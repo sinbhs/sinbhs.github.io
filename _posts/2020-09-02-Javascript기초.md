@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Javascript 기초"
-date:   2020-01-02 19:31:29 +0900
+date:   2020-09-02 19:31:29 +0900
 categories: Javascript
 ---
 # JAVA SCRIPT
