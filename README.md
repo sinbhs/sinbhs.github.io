@@ -12,7 +12,7 @@ Records for one step 💗
 Records for one step
 
 - 안녕하세요 👋 !
-- 이 곳은 개인 기록용 블로그입니다.
+- 이곳은 개인 기록용 블로그입니다.
 - HTML, CSS, javascript/jQuery 등 코딩 관련 공부 글 위주의 기록을 남깁니다.
 
 
