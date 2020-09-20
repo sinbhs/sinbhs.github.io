@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Javascript 제어문"
+title:  "Javascript 제어문 - 조건문, 반복문, 보조 제어문"
 date:   2020-09-19 22:17:00 +0900
 categories: Javascript
 ---
