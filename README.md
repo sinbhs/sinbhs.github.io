@@ -7,7 +7,7 @@ permalink: /about/
 Records for one step 💗
 
 
-## Welcome to jw's github blog
+## Welcome to my blog
 
 - 안녕하세요. 저는 송지우입니다 👋 !
 - 이곳에는 코딩 관련 공부 위주의 글을 업로드합니다.
