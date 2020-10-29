@@ -213,40 +213,40 @@ categories: Javascript
 - 여러 조건을 체크해야 할 때 사용
 - 다중 if~else 문은 최악의 경우 마지막 else문에 도달할 때 까지 모든 조건식을 체크, 다중 선택이 많아지면 프로그램이 길어져 전체적인 흐름 파악 어려움 ⇒ switch ~ case 문은 이를 보완하는 다중 선택문
 
-```jsx
-if(조건식a) {
-	조건식a의 결과가 참일 때, 실행 문장;
-} else if(조건식b) {
-	조건식b의 결과가 참일 때, 실행 문장;
-} else {
-	위의 모든 조건을 만족시키지 못한 경우 실행
-	조건식a, 조건식b 모두 거짓일 때, 실행 문장;
-}
-```
+  ```jsx
+  if(조건식a) {
+    조건식a의 결과가 참일 때, 실행 문장;
+  } else if(조건식b) {
+    조건식b의 결과가 참일 때, 실행 문장;
+  } else {
+    위의 모든 조건을 만족시키지 못한 경우 실행
+    조건식a, 조건식b 모두 거짓일 때, 실행 문장;
+  }
+  ```
 
 - 0~100점 중 어떤 점수대에 포함되는지에 따라 학점을 A~F 5단계로 나누어 부여하는 학점 환산 프로그램
 
-```jsx
-//90점 이상 A, 80점 이상 B, 70점 이상 C, 60점 이상 D, 그 이하는 F
-//입력한 점수와 함께 등급 출력
-let score = prompt('점수를 입력해 주세요.');
-score = Number(score);
-let grade; //등급 선언. 대입x
+  ```jsx
+  //90점 이상 A, 80점 이상 B, 70점 이상 C, 60점 이상 D, 그 이하는 F
+  //입력한 점수와 함께 등급 출력
+  let score = prompt('점수를 입력해 주세요.');
+  score = Number(score);
+  let grade; //등급 선언. 대입x
 
-if(score>=90 && score<=100) {
-	grade = "A";
-} else if(score>=80 && score<=89) {
-	grade = "B";
-} else if(score>=70 && score<=79) {
-	grade = "C";
-} else if(score>=60 && score<=69) {
-	grade = "D";
-} else {
-	grade = "F";
-}
+  if(score>=90 && score<=100) {
+    grade = "A";
+  } else if(score>=80 && score<=89) {
+    grade = "B";
+  } else if(score>=70 && score<=79) {
+    grade = "C";
+  } else if(score>=60 && score<=69) {
+    grade = "D";
+  } else {
+    grade = "F";
+  }
 
-document.body.innerHTML = '<h1>'+score+'점은 '+grade+'입니다.'+'</h1>';
-```
+  document.body.innerHTML = '<h1>'+score+'점은 '+grade+'입니다.'+'</h1>';
+  ```
 <br>
 
 <br>
