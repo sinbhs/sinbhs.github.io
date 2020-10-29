@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Javascript 제어문 - 조건문"
+title:  "Javascript 제어문 - (1) 조건문"
 date:   2020-09-20 18:48:00 +0900
 categories: Javascript
 ---
