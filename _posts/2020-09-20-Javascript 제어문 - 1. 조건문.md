@@ -8,7 +8,7 @@ categories: Javascript
 
 - **조건문(conditional statements)** : 조건에 따라 다음 문장 선택적 실행
 - **주어진 조건**에 따라 참과 거짓으로 구분. **true일 때 실행**.
-- if문, if~else문, 다중 if~else문, switch~case문
+- **if문, if~else문, 다중 if~else문, switch~case문**
 
 <br>
 ---
@@ -171,7 +171,7 @@ categories: Javascript
     </html>
     ```
 
-    2.   ID, PW 입력 자바스크립트
+    2. ID, PW 입력 자바스크립트
 
     ```jsx
     const id = "web", pw = "123456";

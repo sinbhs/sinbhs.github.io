@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Javascript 제어문 - (2) 반복문"
+title:  "Javascript 제어문 - (2) 반복문과 보조 제어문"
 date:   2020-10-31 21:37:00 +0900
 categories: Javascript
 ---
@@ -8,10 +8,10 @@ categories: Javascript
 
 - **반복문(loop statements)** : 동일 명령 여러 번 처리, 특정 연산 반복적 처리
     - **주어진 조건**에 따라 참과 거짓으로 구분. **true일 때 실행**.
-    - for문, while문, do~while문
+    - **for문, while문, do~while문**
 
 - **보조 제어문(break or continue statement)** : 조건문을 만나면 건너뛰거나 반복 수행 종료, 반복문 내에서 사용
-    - continue문, break문
+    - **continue문, break문**
 
 <br>
 ---
