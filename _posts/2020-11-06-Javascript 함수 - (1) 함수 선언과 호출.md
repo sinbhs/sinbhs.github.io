@@ -24,9 +24,9 @@ categories: Javascript
         - **매개 변수** : 함수 호출문에서 전달한 인자를 받기 위해 선언된 변수. 기본적으로 지역 변수로 정의되어 함수 내에서만 사용 가능
         - **function** : 함수를 선언할 때 사용하는 키워드
         - **return** : 함수에서 수행한 결괏값을 반환할 때 사용하는 키워드
-    - 자바스크립트에서 함수를 선언하고 호출하는 방법 2가지
-        - 일반적인 방법(기본 함수)
-        - 함수 표현식으로 작성하는 방법(무명 함수)
+    - 자바스크립트에서 **함수를 선언하고 호출하는 방법 2가지**
+        - **일반적인 방법(기본 함수)**
+        - **함수 표현식으로 작성하는 방법(무명 함수)**
 
 
 <br>
@@ -34,3 +34,49 @@ categories: Javascript
 
 ## 1 - 1. 일반적인 방법
 
+- 함수는 **스크립트 내 어디서나 선언** 가능
+- **함수 호출**은 함수 선언 전후 상관없이 할 수 있지만, 가급적 **함수 선언 후 사용 권장**
+    ```jsx
+    function 함수명 (매개 변수1, 매개 변수2, ...) { //함수 선언
+        실행 문장;
+    }
+    함수명(인자1, 인자2, ...); //함수 호출
+    ```
+
+- 간단한 함수 호출 예시
+    ```jsx
+    var text1 = "함수 선언 전 호출";
+    var text2 = "함수 선언 후 호출";
+    printMsg(text1); //함수 선언 전 호출
+    function printMsg(msg) {
+        document.write("함수 호출 메시지 : " + msg + "<br>");
+    }
+    printMsg(text2); //함수 선언 후 호출
+    ```
+    ![https://blog.kakaocdn.net/dn/GiGnf/btqMRk0he08/vaDhkhHys1Z8P1rRoPJAS0/img.png](https://blog.kakaocdn.net/dn/GiGnf/btqMRk0he08/vaDhkhHys1Z8P1rRoPJAS0/img.png)
+
+- onclick 속성값으로 함수 호출하기
+    - HTML5
+    ```
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <title>html</title>
+    </head>
+
+    <body>
+        <button type="button" onclick="printMsg('홍길동',21)">학생 정보</button>
+    </body>
+    </html>
+    ```
+    ![https://blog.kakaocdn.net/dn/brVOGR/btqM5TTBWrC/XGZm4f9LueVY7Fmv9zQ1k0/img.png](https://blog.kakaocdn.net/dn/brVOGR/btqM5TTBWrC/XGZm4f9LueVY7Fmv9zQ1k0/img.png) 클릭 시
+    - javascript
+    ```jsx
+    function printMst(name, age){
+        document.write("학생 이름 : <b>" + name + "</b><br>");
+        document.write("학생 나이 : <b>" + age + "</b><br>");
+    }
+    ```
