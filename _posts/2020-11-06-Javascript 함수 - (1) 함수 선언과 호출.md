@@ -30,9 +30,16 @@ categories: Javascript
 
 
 <br>
+
+# 2. 함수 선언 및 호출 방법
+- 일반적인 방법(기본 함수)
+- 함수 표현식으로 작성하는 방법(무명 함수)
+
+<br>
+
 ---
 
-## 1 - 1. 일반적인 방법
+## 2 - 1. 일반적인 방법
 
 - 함수는 **스크립트 내 어디서나 선언** 가능
 - **함수 호출**은 함수 선언 전후 상관없이 할 수 있지만, 가급적 **함수 선언 후 사용 권장**
@@ -56,7 +63,8 @@ categories: Javascript
     ![https://blog.kakaocdn.net/dn/GiGnf/btqMRk0he08/vaDhkhHys1Z8P1rRoPJAS0/img.png](https://blog.kakaocdn.net/dn/GiGnf/btqMRk0he08/vaDhkhHys1Z8P1rRoPJAS0/img.png)
 
 - onclick 속성값으로 함수 호출하기
-    - HTML5
+    - HTML5/JS
+
     ```
     <!DOCTYPE html>
     <html lang="ko">
@@ -64,19 +72,42 @@ categories: Javascript
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-        <title>html</title>
+        <title>onclick 속성값을 이용한 함수 호출</title>
     </head>
 
     <body>
-        <button type="button" onclick="printMsg('홍길동',21)">학생 정보</button>
+        <!-- button html  -->
+        <button type="button" onclick="printMsg('홍길동',25)">학생 정보</button>
+
+        <!-- button js -->
+        <script>
+            function printMsg(name, age){
+            document.write("학생 이름 : <b>" + name + "</b><br>");
+            document.write("학생 나이 : <b>" + age + "</b><br>");
+            }
+        </script>
     </body>
     </html>
+
     ```
     ![https://blog.kakaocdn.net/dn/brVOGR/btqM5TTBWrC/XGZm4f9LueVY7Fmv9zQ1k0/img.png](https://blog.kakaocdn.net/dn/brVOGR/btqM5TTBWrC/XGZm4f9LueVY7Fmv9zQ1k0/img.png) 클릭 시
-    - javascript
-    ```jsx
-    function printMst(name, age){
-        document.write("학생 이름 : <b>" + name + "</b><br>");
-        document.write("학생 나이 : <b>" + age + "</b><br>");
-    }
-    ```
+
+    ![https://blog.kakaocdn.net/dn/P7R0u/btqNF84rtld/tTJRZDLIO8NdXkHUyqkim1/img.png](https://blog.kakaocdn.net/dn/P7R0u/btqNF84rtld/tTJRZDLIO8NdXkHUyqkim1/img.png)
+    
+
+    <br>
+    ---
+
+    ## 2 - 2. 함수 표현식으로 작성하는 방법(무명 함수)
+
+    - 함수 표현식을 선언하여 변수에 할당하는 방법
+        - 변수를 함수명으로 사용
+        - 함수명이 생략되기 때문에 무명 함수라고도 함
+    - **함수 호출**은 함수 선언 전에는 불가능, **함수 선언 후 사용**
+        - 함수 선언 전 호출하면 구문 에러(syntax error) 발생
+        ```jsx
+        var 변수명 = function(매개 변수1, 매개 변수2, ...) {//함수 선언
+            실행 문장;
+        }
+        변수명(인자1, 인자2, ...); //함수 호출
+        ```
