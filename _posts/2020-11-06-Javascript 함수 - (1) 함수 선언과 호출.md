@@ -97,7 +97,6 @@ categories: Javascript
 
     <br>
     
-    ---
 
     ## 2 - 2. 함수 표현식으로 작성하는 방법(무명 함수)
 
