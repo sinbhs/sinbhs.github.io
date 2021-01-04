@@ -158,6 +158,7 @@ categories: Javascript
         ```
         ![https://blog.kakaocdn.net/dn/EtaN2/btqSjBV7MnQ/potg1N5LWrod0eV8YSqh61/img.png](https://blog.kakaocdn.net/dn/EtaN2/btqSjBV7MnQ/potg1N5LWrod0eV8YSqh61/img.png)
         클릭마다 num++ 이므로, 사과(num==1), 수박(num==2), 복숭아(num==3), 복숭아(num==4), ..., 복숭아(num++), ...
+    
     <br>
     
     ## 2 - 2. 함수 표현식으로 작성하는 방법(무명 함수, 익명 함수)
