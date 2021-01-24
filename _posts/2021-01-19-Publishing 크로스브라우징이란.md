@@ -21,7 +21,7 @@ categories: Publishing
 
 &#10060; 🙅‍♀️ &#10060;	
 
-크로스 브라우징에 대한 정의가 잘못되었다는 것을 알았다.
+크로스 브라우징에 대해 잘못 알고 있었다는 것을 알게되었다.
 
 제대로 된 정의를 알고 싶어
 
@@ -57,7 +57,7 @@ categories: Publishing
     - 렌더링 엔진 : HTML 문서 파싱, CSS 마크업 파싱 => DOM 트리 구축
 
     |브라우저|렌더링 엔진|설명|
-    |------|---|---|
+    |---------|---|---|
     |IE|<del>트라이던트(Trident)|(구)마이크로 소프트..뒤쳐진 엔진으로..점유율만 봐도 사실상 퇴역|
     |Edge|EdgeHTML, Blink|윈도우10 기본 브라우저인 마이크로소프트 엣지의 엔진. |
     |Chrome|Webkit, Blink|구글은 블링크 엔진(Webkit 코드 베이스에서 7천 개의 파일 삭제/최적화하여 개발),  iOS 한정 Webkit 엔진(iOS에서 Webkit만 사용 허가)|
@@ -80,19 +80,18 @@ categories: Publishing
     - [웹 표준 검사](https://validator.w3.org/) : W3C Validator 
     - [Can I use](https://caniuse.com/) : 브라우저 기능 지원 체크 사이트(최대한 모든 브라우저에 지원되는 기능을 사용하자)
 
-<br>
 
 2. 초기화 작업하기(reset.css, normalize.css)
 
     - 브라우저마다 차이가 나는 기본 스타일 값 초기화
 
-<br>
 
 3. 그 밖의
 
     - 벤더프리픽스 : CSS 속성 접두어
 
         ex) -webkit-transform : translateX(-100%);
+
         |브라우저|접두어|
         |------|---|
         |IE|-ms-|
@@ -122,7 +121,6 @@ categories: Publishing
         
     출처: [Zzolab Project](https://okayoon.tistory.com/entry/크로스-브라우징cross-browsing)
 
-<br>
 
 4. 브라우저 점유율 보고 대응하기 (회사 기준에 따라)
     - [StatCounter](https://gs.statcounter.com/) 에서 전 세계/한국 브라우저 점유율 파악해보기
