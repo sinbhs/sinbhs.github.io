@@ -102,4 +102,3 @@ let arr2 = new Array();//빈 배열 선언.
 let arr3 = new Array(5);//5개의 요소 없는 배열 선언. arr3 = [ , , , , ]
 }
 ```
-
